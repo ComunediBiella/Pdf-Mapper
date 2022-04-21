@@ -1,0 +1,61 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - geographic-information-systems
+  - data-visualization
+description:
+  it:
+    features:
+      - Georeferenziatore in modalità webGIS
+    genericName: Pdf-Mapper
+    longDescription: |
+      Servizio webGIS per consentire la georeferenziazione e la visualizzazione
+      geografica di una qualsiasi tavola cartografica in Pdf di cui siano note
+      la scala, l'orientamento e il datum geodetico. Il servizio consente di
+      aggregare in un visualizzatore geografico le informazioni cartografiche,
+      tipicamente quelle di natura urbanistica, che vengono prodotte in una
+      modalità non Gis quale è il formato Pdf, con il vantaggio di poter
+      sovrapporre queste cartografie a mappe satellitari, catastali, o ai
+      database topografici di recente realizzazione.
+
+
+      ​
+    shortDescription: Un georeferenziatore webGIS per cartografia in formato Pdf
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+legal:
+  license: AGPL-3.0-or-later
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: false
+maintenance:
+  contacts:
+    - email: p.mistrangelo@magellanoprogetti.it
+      name: Paolo Maria Mistrangelo
+  type: community
+name: Pdf-Mapper
+platforms:
+  - web
+  - windows
+  - mac
+  - linux
+  - ios
+  - android
+releaseDate: '2021-12-15'
+softwareType: standalone/web
+url: 'https://github.com/ComuneBiella/Pdf-Mapper'
