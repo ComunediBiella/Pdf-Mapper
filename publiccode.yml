@@ -21,11 +21,11 @@ description:
       sovrapporre queste cartografie a mappe satellitari, catastali, o ai
       database topografici di recente realizzazione.
 
-
-      ​
     shortDescription: Un georeferenziatore webGIS per cartografia in formato Pdf
 developmentStatus: stable
 it:
+  riuso:
+    codiceIPA: c_a859
   conforme:
     gdpr: false
     lineeGuidaDesign: false
